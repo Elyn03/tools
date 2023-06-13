@@ -51,6 +51,56 @@ body {
 	background-color: #a4daed;
 }
 
+#time {
+   display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+h1 {
+	text-align: center;
+}
+
+.num {
+	font-size: 9.5rem;
+	color: #fff;
+}
+
+.txt {
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.btn {
+	width: 100px;
+	padding: 10px 15px;
+	margin: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 20px;
+	transition: 0.2s;
+	color: #000;
+   border: 2px solid #000;
+}
+
+#reset {
+	background-color: #7dd1f0;
+}
+
+#start {
+	background-color: #65b3d0;
+}
+
+#stop {
+	background-color: #3b758a;
+}
+
+#start:hover, #stop:hover, #reset:hover {
+	background-color: #a4daed;
+   border: 2px solid #fff;
+   color: #fff;
+}
+
 
 /********* Timer *********/
 
